@@ -1,0 +1,52 @@
+#introduction {
+    background-image: url("./images/20230729_213600.jpg");
+    height: 100vh;
+
+}
+.title-text {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    top: 200px;
+}
+.title-text h1 {
+    font-size: 72px;
+    color: ghostwhite;
+    font-family: "Protest Revolution", sans-serif;
+}
+.title-text h2 {
+    color: antiquewhite;
+    font-size: 42px;
+    font-family: "Protest Revolution", sans-serif;
+    font-style: italic;
+}
+#hero img {
+    border-radius: 50%;
+    box-shadow: 5px 10px rgba(199, 192, 192, 0.619);
+}
+.skills {
+    text-align: center;
+    background-image: url("./images/20230704_214442.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(222, 184, 135, 0.642);
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.button {
+    border-radius: 10px;
+    font-size: 30px;
+    justify-content: center;
+    margin: 20px;
+}
+.home {
+    position: absolute;
+    left: 600px;
+}
